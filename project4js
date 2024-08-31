@@ -1,0 +1,19 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const navbarLinks = document.querySelectorAll("#navbar a");
+    const sections = document.querySelectorAll("section");
+
+    function setActiveLink() {
+        let index = sections.length;
+
+        while(--index && window.scrollY + 50 < sections[index].offsetTop) {}
+        
+        navbarLinks.forEach(link => link.classList.remove("active"));
+        navbarLinks[index].classList.add("active");
+    }
+
+    // Add scroll event listener
+    window.addEventListener("scroll", setActiveLink);
+
+    // Initial check
+    setActiveLink();
+});
