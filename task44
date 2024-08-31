@@ -1,0 +1,2 @@
+let divElement = document.getElementById("myDiv"); // Replace 'myDiv' with the actual ID
+divElement.innerHTML = "<p>New content inside the div!</p>";
