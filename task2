@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline JavaScript Example</title>
+    <script>
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = "lightblue"; // Change background color to light blue
+        }
+    </script>
+</head>
+<body onload="changeBackgroundColor()"> <!-- Call the function on page load -->
+    <h1>Background Color Changed!</h1>
+</body>
+</html>
