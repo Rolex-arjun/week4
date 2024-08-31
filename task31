@@ -1,0 +1,7 @@
+let fruits = ["Apple", "Banana", "Cherry"];
+
+fruits.push("Date"); // Adds "Date" to the end of the array
+console.log(fruits); // Output: ["Apple", "Banana", "Cherry", "Date"]
+
+fruits.pop(); // Removes the last element ("Date")
+console.log(fruits); // Output: ["Apple", "Banana", "Cherry"]
