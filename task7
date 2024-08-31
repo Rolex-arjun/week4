@@ -1,0 +1,17 @@
+// Different data types in JavaScript
+let stringExample = "Hello, World!";   // String
+let numberExample = 42;                // Number
+let booleanExample = true;             // Boolean
+let arrayExample = [1, 2, 3, 4];       // Array
+let objectExample = { name: "Alice", age: 30 }; // Object
+let nullExample = null;                // Null
+let undefinedExample;                  // Undefined
+
+// Logging data types to the console
+console.log("String: " + stringExample);
+console.log("Number: " + numberExample);
+console.log("Boolean: " + booleanExample);
+console.log("Array: ", arrayExample);
+console.log("Object: ", objectExample);
+console.log("Null: " + nullExample);
+console.log("Undefined: " + undefinedExample);
