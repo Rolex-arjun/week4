@@ -1,0 +1,9 @@
+let book = {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    logDetails: function() {
+        console.log("The book '" + this.title + "' was written by " + this.author + ".");
+    }
+};
+
+book.logDetails(); // Output: The book 'The Great Gatsby' was written by F. Scott Fitzgerald.
