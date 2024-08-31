@@ -1,0 +1,7 @@
+let fruits = ["Apple", "Banana", "Cherry"];
+
+fruits.shift(); 
+console.log(fruits); 
+
+fruits.unshift("Apricot"); 
+console.log(fruits); 
