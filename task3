@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript as an Interpreted Language</title>
+    <script>
+        // JavaScript is an interpreted language
+        // The code below is executed line by line by the browser's JavaScript engine
+        console.log("JavaScript code is executed line by line.");
+        console.log("There is no need to compile the code before execution.");
+        console.log("The browser interprets and runs the code immediately.");
+    </script>
+</head>
+<body>
+    <h1>Check the Console for Explanation</h1>
+</body>
+</html>
