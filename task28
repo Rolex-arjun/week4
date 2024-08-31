@@ -1,0 +1,6 @@
+Person.prototype.greet = function() {
+    console.log("Hi, my name is " + this.name + " and I am " + this.age + " years old.");
+};
+
+person1.greet(); // Output: Hi, my name is John and I am 30 years old.
+person2.greet(); // Output: Hi, my name is Jane and I am 25 years old.
