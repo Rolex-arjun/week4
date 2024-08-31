@@ -1,0 +1,11 @@
+// Using var
+var name = "John";
+var age = 25;
+
+// Using let
+let city = "New York";
+let isStudent = true;
+
+// Using const
+const country = "USA";
+const pi = 3.14159;
