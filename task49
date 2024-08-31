@@ -1,0 +1,5 @@
+let myButton = document.getElementById("myButton"); // Replace 'myButton' with the button's ID
+
+myButton.addEventListener("click", function() {
+    console.log("Button clicked!");
+});
