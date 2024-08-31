@@ -1,0 +1,6 @@
+function toUpperCase(str) {
+    return str.toUpperCase();
+}
+
+let upperStr = toUpperCase("hello world");
+console.log(upperStr); // Output: HELLO WORLD
