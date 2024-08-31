@@ -1,0 +1,6 @@
+let myButton = document.getElementById("myButton"); // Replace 'myButton' with the button's ID
+let myElement = document.getElementById("myElement"); // Replace 'myElement' with the element's ID
+
+myButton.addEventListener("click", function() {
+    myElement.classList.toggle("myClass"); // Replace 'myClass' with the class name
+});
