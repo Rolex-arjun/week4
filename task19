@@ -1,0 +1,6 @@
+let multiply = function(a, b) {
+    return a * b;
+};
+
+let product = multiply(4, 7);
+console.log("Product: " + product); // Output: Product: 28
