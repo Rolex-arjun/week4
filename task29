@@ -1,0 +1,15 @@
+class Animal {
+    constructor(name) {
+        this.name = name;
+    }
+
+    speak() {
+        console.log(this.name + " makes a sound.");
+    }
+}
+
+let animal1 = new Animal("Dog");
+animal1.speak(); // Output: Dog makes a sound.
+
+let animal2 = new Animal("Cat");
+animal2.speak(); // Output: Cat makes a sound.
