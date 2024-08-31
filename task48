@@ -1,0 +1,3 @@
+let element = document.getElementById("myElement"); // Replace 'myElement' with the actual ID
+let clonedElement = element.cloneNode(true); // 'true' means deep clone (with children)
+document.body.appendChild(clonedElement);
